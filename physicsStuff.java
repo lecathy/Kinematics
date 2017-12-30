@@ -50,7 +50,7 @@ public class physicsStuff extends JFrame
     setSize(600,450);
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     
-    // defines and locates textfields, buttons and labels
+    // defines and locates textfields, buttons and labels and puts them into the correct layout
     title = new JLabel("Kinematics Calculator");
     title.setBounds(200,25,500,50);
     title.setFont(new Font("Serif", Font.PLAIN, 24));
@@ -145,6 +145,7 @@ public class physicsStuff extends JFrame
         checkError();
         
         // if there are no errors in the users input, the following will calculate the missing values
+        // each variable in each kinematic formula has been isolated 
         if(error == false)
         {
           buttonOK.setEnabled(false);
