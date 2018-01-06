@@ -47,12 +47,12 @@ public class physicsStuff extends JFrame
     setContentPane(panel);
     setVisible(true);
     setResizable(false);
-    setSize(600,450);
+    setSize(400,450);
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     
     // defines and locates textfields, buttons and labels and puts them into the correct layout
     title = new JLabel("Kinematics Calculator");
-    title.setBounds(200,25,500,50);
+    title.setBounds(80,25,500,50);
     title.setFont(new Font("Serif", Font.PLAIN, 24));
     
     buttonOK = new JButton("OK");
@@ -464,3 +464,4 @@ public class physicsStuff extends JFrame
     
   }
 }
+// Created by Cathy Le 
